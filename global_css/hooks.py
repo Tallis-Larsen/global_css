@@ -24,6 +24,9 @@ app_license = "agpl-3.0"
 # Includes in <head>
 # ------------------
 
+# This will load our JS injector into the Frappe Desk
+app_include_js = "/assets/global_css/js/apply_css.js"
+
 # include js, css files in header of desk.html
 # app_include_css = "/assets/global_css/css/global_css.css"
 # app_include_js = "/assets/global_css/js/global_css.js"
